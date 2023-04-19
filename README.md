@@ -5,15 +5,18 @@
 After lots of exploring i found best solution and understanding about SOLID principle. So in this repo we are understand what is SOLID principle and why we are use and what is right use of priciple.
 
 So lets start 
+
 Basically SOLID principle is 5 type --
+
 <ul>
-<li> **	Single Responsibility Principle ** </li>
-<li> **	Open-Close Principle ** </li>
-<li> **	Liskov Substitution Principle ** </li>
-<li> **	Interface Segregation Principle ** </li>
-<li> **	Dependency Inversion Principle ** </li>
+<li> <b>	Single Responsibility Principle </b> </li>
+<li> <b>	Open-Close Principle </b> </li>
+<li> <b>	Liskov Substitution Principle </b> </li>
+<li> <b>	Interface Segregation Principle </b> </li>
+<li> <b>	Dependency Inversion Principle </b> </li>
 </ul>
-1. Single Responsbility Principle 
+
+**1. Single Responsbility Principle **
 
       >  A class has to have only one responsibility.
 
