@@ -127,7 +127,7 @@ Above we have separated each class as a responsibility, So the code is cleaner a
 
 **2. Open-Closed Principle:**
 
->Software entities such as classes, functions, and modules should be open for extension but closed for modification.
+             >Software entities such as classes, functions, and modules should be open for extension but closed for modification.
 
 If we have already written the class, So it should be open for extension but closed for modification, Hence we should design the class in such a way that follows this principle(for a new feature we should not change the current class rather we should create a new class by extending the current class)
 
@@ -233,6 +233,8 @@ Here we have introduced one more class which has a fly method that is applicable
 **3. Interface Segregation Principle:**
 
 The Interface Segregation Principle (ISP) states that a client should not be exposed to methods it doesn’t need. Declaring methods in an interface that the client doesn’t need pollutes the interface and leads to a “bulky” or “fat” interface.
+other words >>>>>>>
+Interface segregation means if you have one interface and containing multiple methods and after some time you need to add one more method in same interface so you need to implement all over project so you can create separate interface and implement separately
 
 **Let’s see the bad example:**
 
@@ -309,9 +311,6 @@ class HPKeyboard : Keyboard() {
 ```
 
 Here, we are expecting a keyboard but the type is not defined so we can pass any type of keyboard depending on the requirements.
-
-Conclusion I have covered the basics of the SOLID principle there are so many complex examples available but before going to that we need to be clear about the basic ones.
-
 
 
 
