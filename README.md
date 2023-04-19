@@ -17,7 +17,7 @@ Basically SOLID principle is 5 type --
 </ul>
 
 
-**1. Single Responsbility Principle **
+<b>1. Single Responsbility Principle </b>
 
       >  A class has to have only one responsibility.
 
