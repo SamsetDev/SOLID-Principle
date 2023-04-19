@@ -193,7 +193,7 @@ Here in the above example, we are having an abstract class which is having the a
 
 **3. Liskov substitution Principle:**
 
-           >Child classes should never break the parent class’ type definitions.
+           Child classes should never break the parent class’ type definitions.
 
 Parent classes should be easily substituted with their child classes without changing the behaviour of the parent classes. It means that a subclass should override the methods from a parent class, which does not break the functionality of the parent class.
 
@@ -249,7 +249,7 @@ interface Listener{
 
 Here in the above example, we have only 1 interface and many methods which some classes will not need so we are making a bulky interface that is of not much use for many classes
 
-Let's fix this:
+**Let's fix this:**
 
 ```
 interface ClickListener{
@@ -267,7 +267,7 @@ Here we have 2 interfaces at the time of listeners we can use the click listener
 
 **3. Dependency Inversion Principle:**
 
-                >Any higher classes should always depend upon the abstraction of the class rather than the detail.
+                Any higher classes should always depend upon the abstraction of the class rather than the detail.
                 
 Higher classes are not dependent on the lower classes but instead depend upon the abstraction of the lower classes.
 
