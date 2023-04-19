@@ -2,7 +2,7 @@
 
 - - - -
 
-After lots of exploring i found best solution and understanding about SOLID principle. So in this repo we are understand what is SOLID principle and why we are use and what is right use of priciple.
+After lots of exploring i found best solution and understanding about SOLID principle. So in this repo we are understand what is SOLID principle and why we are use and what is right use of principle.
 
 So lets start 
 
