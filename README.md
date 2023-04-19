@@ -16,6 +16,7 @@ Basically SOLID principle is 5 type --
 <li> <b>	Dependency Inversion Principle </b> </li>
 </ul>
 
+
 **1. Single Responsbility Principle **
 
       >  A class has to have only one responsibility.
