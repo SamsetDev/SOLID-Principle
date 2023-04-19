@@ -1,16 +1,18 @@
 # SOLID-Principle
 
+- - - -
+
 After lots of exploring i found best solution and understanding about SOLID principle. So in this repo we are understand what is SOLID principle and why we are use and what is right use of priciple.
 
 So lets start 
 Basically SOLID principle is 5 type --
-
-•	Single Responsibility Principle
-•	Open-Close Principle 
-•	Liskov Substitution Principle 
-•	Interface Segregation Principle 
-•	Dependency Inversion Principle 
-
+<ul>
+<li> **	Single Responsibility Principle ** </li>
+<li> **	Open-Close Principle ** </li>
+<li> **	Liskov Substitution Principle ** </li>
+<li> **	Interface Segregation Principle ** </li>
+<li> **	Dependency Inversion Principle ** </li>
+</ul>
 1. Single Responsbility Principle 
 
       >  A class has to have only one responsibility.
@@ -233,7 +235,9 @@ Here we have introduced one more class which has a fly method that is applicable
 **3. Interface Segregation Principle:**
 
 The Interface Segregation Principle (ISP) states that a client should not be exposed to methods it doesn’t need. Declaring methods in an interface that the client doesn’t need pollutes the interface and leads to a “bulky” or “fat” interface.
+
 other words >>>>>>>
+
 Interface segregation means if you have one interface and containing multiple methods and after some time you need to add one more method in same interface so you need to implement all over project so you can create separate interface and implement separately
 
 **Let’s see the bad example:**
@@ -315,18 +319,4 @@ Here, we are expecting a keyboard but the type is not defined so we can pass any
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-       
-       
        
